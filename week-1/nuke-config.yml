@@ -1,0 +1,17 @@
+regions:
+  - ap-southeast-1
+  - global
+
+account-blocklist:
+  - "842483308865"
+
+accounts:
+  "842483308865": 
+    filters:
+      S3Bucket:
+        - "s3://bucket-week-1"
+
+resource-types:
+  targets:
+    - S3Object
+    - S3Bucket
